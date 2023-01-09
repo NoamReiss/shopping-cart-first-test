@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color:pink;
+}
+
+.Box{
+    border : 1px solid black;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width : 400px;
+    background-color: rgb(216, 118, 164);
+    padding :10px;
+}
+table{
+    margin : auto;
+    margin-top: 20px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(216, 118, 164);
+}
+tr:nth-child(odd){
+    background-color: rgb(230, 142, 218);
+}
+tr:nth-child(even){
+    background-color: rgb(226, 109, 205);
+}
+td{
+    padding: 10px;
+}
+img {
+    max-width: 20px;
+}
