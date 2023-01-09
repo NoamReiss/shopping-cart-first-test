@@ -15,11 +15,12 @@
       <form action="javascript:myAction()" id="myForm">
         <br />
         <input
+          required
           type="text"
           placeholder="Product name"
           id="productName" /><br /><br />
         <input type="number" placeholder="price" id="price" /><br /><br />
-        <select id="category">
+        <select id="category" required>
           <option value="category" selected disabled>category</option>
           <option value="drinks">Drinks</option>
           <option value="meat">Meat</option>
@@ -28,7 +29,12 @@
           <option value="basic">Basic</option>
         </select>
         <br /><br />
-        <textarea id="img" rows="2" cols="40" placeholder="img link"></textarea>
+        <textarea
+          required
+          id="img"
+          rows="2"
+          cols="40"
+          placeholder="img link"></textarea>
         <br /><br />
         <input type="submit" value="Add Product" />
         <!-- <input type="reset" /> -->
